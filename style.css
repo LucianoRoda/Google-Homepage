@@ -1,0 +1,160 @@
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.caja {
+    display: flex;
+    align-items: end;
+}
+.caja *{
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    height: auto;
+}
+
+.caja img{
+    width: 22px;
+    border-width: -6px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #f0f8ff00;
+}
+
+.img-puntos{
+    border-style: none;
+    align-self: center;
+}
+
+.caja p{
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87)
+}
+
+.principal{
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal *{
+    margin-top: 20px;
+}
+
+.img-google{
+    display: block;
+}
+
+.busqueda-entero{
+    width: 525px;
+    height: 35px;
+    border: black;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #77777752;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+}
+
+.busqueda{
+    font-size: unset;
+    align-self: center;
+    width: 450px;
+    height: 23px;
+    margin: 25px 5px 25px 5px;
+    border-style: none;
+}
+
+.busqueda:focus-visible{
+    outline-width: 0;
+}
+
+.iconos-busqueda{
+    width: 19px;
+    align-self: flex-end;
+    margin-bottom: 7px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botones *{
+    margin: 0px 15px;
+    padding: 13px;
+    border-width: revert;
+    border-style: none;
+    border-color: #8080807d;
+    border-radius: 4px;
+    background-color: #7fffd400;
+}
+
+.botones *:hover{
+    border-style: solid;
+    cursor: pointer;
+}
+
+.texto-busqueda{
+    display: flex;
+}
+
+.texto-busqueda p{
+    align-self: center;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+.contenedor-gris{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgba(242, 242, 242, 1);
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.caja-doble{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.texto-footer{
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.caja-footer{
+    margin: 0 40px;
+}
+
+.caja-footer *{
+    margin-left: 50px;
+    display: -webkit-inline-box;
+}
+
+hr{
+    width: 100%;
+    color: rgba(155, 155, 155, 0.05);
+}
+
+.contenedor-arriba{
+    border-bottom: rgba(0, 0, 0, 0.54);
+}
+
+.subrayado:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
