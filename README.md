@@ -1,1 +1,7 @@
-A google homepage made by myself as my first proyect on the-odin-proyect website. I made it only with html and css.
+# Google-Homepage
+
+Clon de la página principal de google hecho por mi como primer proyecto de "the-odin-proyect"
+
+Hecha con HTML y CSS
+
+Link: https://google-homepage-lr.netlify.app/
